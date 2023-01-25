@@ -40,10 +40,14 @@ class ViewController: UIViewController {
         label.font = label.font.withSize(25)
         
         //文字の行間を開ける
-        let LineHeightStyle = NSMutableParagraphStyle()
-        LineHeightStyle.lineSpacing = 18
-        let lineHeightAttr = [NSAttributedString.Key.paragraphStyle: LineHeightStyle]
-        label.attributedText = NSMutableAttributedString(string: "＜＜じゃんけんゲーム＞＞\n１：自分が出す手を選ぶ\n２：『ゲーム開始』を押して始める", attributes: lineHeightAttr)
+        //基本の文字styleを作成
+        let style = NSMutableParagraphStyle()
+        //文字styleは行間の設定だけ改造(普通より大きい値に)
+        style.lineSpacing = 18
+        
+        //改造した文字styleを使って、属性付き文字列をlabelに設定
+        label.attributedText = NSMutableAttributedString(string: "＜＜じゃんけんゲーム＞＞\n１：自分が出す手を選ぶ\n２：『ゲーム開始』を押して始める",
+                                                         attributes: [NSAttributedString.Key.paragraphStyle : style])
         // ルールの横縦幅
         let labelWidth:CGFloat = 300
         let labelHeight:CGFloat = 300
