@@ -16,6 +16,7 @@
 		0305187F297FB8B200BC5DE1 /* paa.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0305187C297FB8B100BC5DE1 /* paa.jpeg */; };
 		03051880297FB8B200BC5DE1 /* guu.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0305187D297FB8B100BC5DE1 /* guu.jpeg */; };
 		03051881297FB8B200BC5DE1 /* tyoki.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0305187E297FB8B200BC5DE1 /* tyoki.jpeg */; };
+		030518832981136E00BC5DE1 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030518822981136E00BC5DE1 /* GameViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		0305187C297FB8B100BC5DE1 /* paa.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = paa.jpeg; sourceTree = "<group>"; };
 		0305187D297FB8B100BC5DE1 /* guu.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = guu.jpeg; sourceTree = "<group>"; };
 		0305187E297FB8B200BC5DE1 /* tyoki.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tyoki.jpeg; sourceTree = "<group>"; };
+		030518822981136E00BC5DE1 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				0305187D297FB8B100BC5DE1 /* guu.jpeg */,
 				0305187C297FB8B100BC5DE1 /* paa.jpeg */,
 				0305187E297FB8B200BC5DE1 /* tyoki.jpeg */,
+				030518822981136E00BC5DE1 /* GameViewController.swift */,
 			);
 			path = RPSgame;
 			sourceTree = "<group>";
@@ -150,6 +153,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				030518832981136E00BC5DE1 /* GameViewController.swift in Sources */,
 				0305186D297F9AF100BC5DE1 /* ViewController.swift in Sources */,
 				03051869297F9AF100BC5DE1 /* AppDelegate.swift in Sources */,
 				0305186B297F9AF100BC5DE1 /* SceneDelegate.swift in Sources */,
