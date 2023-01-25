@@ -67,6 +67,7 @@
 				03051868297F9AF100BC5DE1 /* AppDelegate.swift */,
 				0305186A297F9AF100BC5DE1 /* SceneDelegate.swift */,
 				0305186C297F9AF100BC5DE1 /* ViewController.swift */,
+				030518822981136E00BC5DE1 /* GameViewController.swift */,
 				0305186E297F9AF100BC5DE1 /* Main.storyboard */,
 				03051871297F9AF700BC5DE1 /* Assets.xcassets */,
 				03051873297F9AF700BC5DE1 /* LaunchScreen.storyboard */,
@@ -74,7 +75,6 @@
 				0305187D297FB8B100BC5DE1 /* guu.jpeg */,
 				0305187C297FB8B100BC5DE1 /* paa.jpeg */,
 				0305187E297FB8B200BC5DE1 /* tyoki.jpeg */,
-				030518822981136E00BC5DE1 /* GameViewController.swift */,
 			);
 			path = RPSgame;
 			sourceTree = "<group>";

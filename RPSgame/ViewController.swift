@@ -32,6 +32,28 @@ class ViewController: UIViewController {
         let screenWidth:CGFloat = self.view.frame.width
         let screenHeight:CGFloat = self.view.frame.height
         
+        //ルールの説明文
+        let label = UILabel()
+        
+        //文字の改行をさせる設定
+        label.numberOfLines = 0
+        label.font = label.font.withSize(25)
+        
+        //文字の行間を開ける
+        let LineHeightStyle = NSMutableParagraphStyle()
+        LineHeightStyle.lineSpacing = 18
+        let lineHeightAttr = [NSAttributedString.Key.paragraphStyle: LineHeightStyle]
+        label.attributedText = NSMutableAttributedString(string: "＜＜じゃんけんゲーム＞＞\n１：自分が出す手を選ぶ\n２：『ゲーム開始』を押して始める", attributes: lineHeightAttr)
+        // ルールの横縦幅
+        let labelWidth:CGFloat = 300
+        let labelHeight:CGFloat = 300
+        
+        label.frame = CGRect(x:screenWidth/2 - labelWidth/2,
+                             y:screenHeight/4 - labelHeight/4,
+                             width:labelWidth,
+                             height:labelHeight)
+        self.view.addSubview(label)
+        
         // ボタンの横縦幅
         let startButtonWidth:CGFloat = 300
         let startButtonHeight:CGFloat = 100
