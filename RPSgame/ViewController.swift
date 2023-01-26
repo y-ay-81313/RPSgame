@@ -20,7 +20,7 @@ class ViewController: UIViewController {
         //navigationControllerの「戻る」ボタンのバーを消す
         navigationController?.setNavigationBarHidden(true, animated: false)
         
-        //ゲーム画面
+        //説明画面
         layout()
         
     }
